@@ -1,0 +1,38 @@
+# Online Store
+# this project is a part of the course Advance Programming taught in University of Tehran.
+# the goal is to design an online store by object oriented scheme in which exists users who
+# are able to buy or sell goods.
+#
+# capabilities:
+# ‫‪add_user <first_name> <last_name> <username> <phone_number> <money> <seller | buyer>
+#
+# add_goods <seller_username> <goods_name> <goods_price> <goods_count>
+#
+# search <goods_name> <goods_count>
+#
+# buy <buyer_username> <goods_name> <goods_count> <seller_username>,
+#                      <goods_name> <goods_count> <seller_username>,
+#                      . . .
+#                      <goods_name> <goods_count> <seller_username>
+#
+# sale <buyer_username> <goods_name> <seller_username>
+#
+# add_special <seller_username> <goods_name> <goods_count>
+#
+# remove_special <seller_username> <goods_name> <goods_count>
+#
+# search_sale
+#
+# search_bestseller
+#
+# add_money <username> <money>
+#
+# request <requestname> <buyer_username> <goods_name> <goods_count> <sellerid>
+#                                        <goods_name> <goods_count> <sellerid>
+#                                        . . .
+#                                        <goods_name> <goods_count> <sellerid>
+#
+# print_request <buyer_username>
+#
+# print_factor <buyer_username>
+
